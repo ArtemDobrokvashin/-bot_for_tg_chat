@@ -1,0 +1,25 @@
+{
+  "name": "telegram-gemini-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot with Gemini AI for calendar management and chat summarization",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.2.0",
+    "node-telegram-bot-api": "^0.64.0",
+    "date-fns": "^3.3.1",
+    "sqlite3": "^5.1.7",
+    "sqlite": "^5.1.1",
+    "dotenv": "^16.4.1",
+    "chrono-node": "^2.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "vitest": "^1.2.2"
+  }
+}
